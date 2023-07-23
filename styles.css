@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background-color: #f7f7f7; */
+    background: linear-gradient(to bottom, #76abe4, #207ada);
+}
+
+h1 {
+    font-family: Sacramento;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.clock {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.timer {
+    font-family: Sacramento;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 1rem;
+    font-family: Agency FB;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0071e9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.controls button:hover {
+    transform: scale(1.05);
+}
+
+.controls button:active {
+    transform: scale(0.95);
+}
